@@ -8932,10 +8932,10 @@ strapi-admin@3.5.3:
     webpackbar "^4.0.0"
     yup "^0.27.0"
 
-strapi-connector-mongoose@3.5.3:
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/strapi-connector-mongoose/-/strapi-connector-mongoose-3.5.3.tgz#4d294d85bcb631c0235cb408640a9998ea24a94c"
-  integrity sha512-ua+cc0JHHNgUqN6SZuvlzRVzt/MmGA7lxQH2WSGkXJSXDtRY2fXI4ZtqWXst6IqXuLi3tbPtkWiPNfj+Izd/wQ==
+strapi-connector-mongoose@3.5.4:
+  version "3.5.4"
+  resolved "https://registry.yarnpkg.com/strapi-connector-mongoose/-/strapi-connector-mongoose-3.5.4.tgz#bbcc4844f885665b2d104d59fe77201eeec2af44"
+  integrity sha512-WJ2nWkDPyu9Kbg/4SPv10sHyDmfk3Htc/+Llqd0anFolut/ieqChKkcqn3cRCExiDfUyD/3z8+LOhBTeKJUM+w==
   dependencies:
     lodash "4.17.20"
     mongoose "5.10.8"
@@ -8943,7 +8943,7 @@ strapi-connector-mongoose@3.5.3:
     mongoose-long "^0.3.2"
     pluralize "^8.0.0"
     semver "^7.3.4"
-    strapi-utils "3.5.3"
+    strapi-utils "3.5.4"
 
 strapi-database@3.5.3:
   version "3.5.3"
