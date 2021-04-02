@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "04/02/2021 7:06:43 PM"
+    "x-generation-date": "04/02/2021 8:58:33 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5293,7 +5293,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -5406,34 +5405,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
-                        "base.table",
-                        "base.text"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "column_start": {
-                      "type": "integer"
-                    },
-                    "column_end": {
-                      "type": "integer"
-                    }
-                  },
-                  "required": [
-                    "id",
-                    "column_start",
-                    "column_end"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -5509,7 +5480,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -5569,7 +5539,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -5682,34 +5651,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
-                        "base.table",
-                        "base.text"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "column_start": {
-                      "type": "integer"
-                    },
-                    "column_end": {
-                      "type": "integer"
-                    }
-                  },
-                  "required": [
-                    "id",
-                    "column_start",
-                    "column_end"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -5785,7 +5726,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -5855,7 +5795,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -5968,34 +5907,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
-                        "base.table",
-                        "base.text"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "column_start": {
-                      "type": "integer"
-                    },
-                    "column_end": {
-                      "type": "integer"
-                    }
-                  },
-                  "required": [
-                    "id",
-                    "column_start",
-                    "column_end"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -6071,7 +5982,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -6131,7 +6041,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -6244,34 +6153,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
-                        "base.table",
-                        "base.text"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "column_start": {
-                      "type": "integer"
-                    },
-                    "column_end": {
-                      "type": "integer"
-                    }
-                  },
-                  "required": [
-                    "id",
-                    "column_start",
-                    "column_end"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -6347,7 +6228,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -6417,7 +6297,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -6530,34 +6409,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
-                        "base.table",
-                        "base.text"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "column_start": {
-                      "type": "integer"
-                    },
-                    "column_end": {
-                      "type": "integer"
-                    }
-                  },
-                  "required": [
-                    "id",
-                    "column_start",
-                    "column_end"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -6633,7 +6484,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -6693,7 +6543,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -6806,34 +6655,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
-                        "base.table",
-                        "base.text"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "column_start": {
-                      "type": "integer"
-                    },
-                    "column_end": {
-                      "type": "integer"
-                    }
-                  },
-                  "required": [
-                    "id",
-                    "column_start",
-                    "column_end"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -6909,7 +6730,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -7060,7 +6880,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -7173,34 +6992,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
-                        "base.table",
-                        "base.text"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "column_start": {
-                      "type": "integer"
-                    },
-                    "column_end": {
-                      "type": "integer"
-                    }
-                  },
-                  "required": [
-                    "id",
-                    "column_start",
-                    "column_end"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -7276,7 +7067,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -7349,7 +7139,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -7462,34 +7251,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
-                        "base.table",
-                        "base.text"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "column_start": {
-                      "type": "integer"
-                    },
-                    "column_end": {
-                      "type": "integer"
-                    }
-                  },
-                  "required": [
-                    "id",
-                    "column_start",
-                    "column_end"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -7565,7 +7326,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -7635,7 +7395,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -7748,34 +7507,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
-                        "base.table",
-                        "base.text"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "column_start": {
-                      "type": "integer"
-                    },
-                    "column_end": {
-                      "type": "integer"
-                    }
-                  },
-                  "required": [
-                    "id",
-                    "column_start",
-                    "column_end"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -7851,7 +7582,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -7911,7 +7641,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -8024,34 +7753,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
-                        "base.table",
-                        "base.text"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "column_start": {
-                      "type": "integer"
-                    },
-                    "column_end": {
-                      "type": "integer"
-                    }
-                  },
-                  "required": [
-                    "id",
-                    "column_start",
-                    "column_end"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -8127,7 +7828,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -8197,7 +7897,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -8310,34 +8009,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
-                        "base.table",
-                        "base.text"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "column_start": {
-                      "type": "integer"
-                    },
-                    "column_end": {
-                      "type": "integer"
-                    }
-                  },
-                  "required": [
-                    "id",
-                    "column_start",
-                    "column_end"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -8413,7 +8084,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -8473,7 +8143,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -8586,34 +8255,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
-                        "base.table",
-                        "base.text"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "column_start": {
-                      "type": "integer"
-                    },
-                    "column_end": {
-                      "type": "integer"
-                    }
-                  },
-                  "required": [
-                    "id",
-                    "column_start",
-                    "column_end"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -8689,7 +8330,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -8819,7 +8459,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -8932,34 +8571,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
-                        "base.table",
-                        "base.text"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "column_start": {
-                      "type": "integer"
-                    },
-                    "column_end": {
-                      "type": "integer"
-                    }
-                  },
-                  "required": [
-                    "id",
-                    "column_start",
-                    "column_end"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -9035,7 +8646,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -9109,7 +8719,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -9222,34 +8831,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
-                        "base.table",
-                        "base.text"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "column_start": {
-                      "type": "integer"
-                    },
-                    "column_end": {
-                      "type": "integer"
-                    }
-                  },
-                  "required": [
-                    "id",
-                    "column_start",
-                    "column_end"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -9325,7 +8906,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]

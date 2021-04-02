@@ -593,7 +593,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -706,34 +705,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
-                        "base.table",
-                        "base.text"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "column_start": {
-                      "type": "integer"
-                    },
-                    "column_end": {
-                      "type": "integer"
-                    }
-                  },
-                  "required": [
-                    "id",
-                    "column_start",
-                    "column_end"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -809,7 +780,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -883,7 +853,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -996,34 +965,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
-                        "base.table",
-                        "base.text"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "column_start": {
-                      "type": "integer"
-                    },
-                    "column_end": {
-                      "type": "integer"
-                    }
-                  },
-                  "required": [
-                    "id",
-                    "column_start",
-                    "column_end"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
@@ -1099,7 +1040,6 @@
                       "type": "string",
                       "enum": [
                         "base.image",
-                        "base.layout",
                         "base.table",
                         "base.text"
                       ]
