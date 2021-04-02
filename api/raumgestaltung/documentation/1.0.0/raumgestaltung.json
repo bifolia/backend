@@ -312,7 +312,8 @@
     "schemas": {
       "Raumgestaltung": {
         "required": [
-          "id"
+          "id",
+          "body"
         ],
         "properties": {
           "id": {
@@ -327,691 +328,272 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "layout.full-width",
-                        "layout.centered",
-                        "layout.full-width-image"
+                        "base.image",
+                        "base.layout",
+                        "base.table",
+                        "base.text"
                       ]
                     },
                     "id": {
                       "type": "string"
                     },
-                    "left": {
-                      "type": "array",
-                      "items": {
-                        "oneOf": [
-                          {
-                            "properties": {
-                              "__component": {
-                                "type": "string",
-                                "enum": [
-                                  "base.image",
-                                  "base.table",
-                                  "base.text"
-                                ]
-                              },
-                              "id": {
-                                "type": "string"
-                              },
-                              "source": {
-                                "required": [
-                                  "id",
-                                  "name",
-                                  "hash",
-                                  "mime",
-                                  "size",
-                                  "url",
-                                  "provider"
-                                ],
-                                "properties": {
-                                  "id": {
-                                    "type": "string"
-                                  },
-                                  "name": {
-                                    "type": "string"
-                                  },
-                                  "alternativeText": {
-                                    "type": "string"
-                                  },
-                                  "caption": {
-                                    "type": "string"
-                                  },
-                                  "width": {
-                                    "type": "integer"
-                                  },
-                                  "height": {
-                                    "type": "integer"
-                                  },
-                                  "formats": {
-                                    "type": "object"
-                                  },
-                                  "hash": {
-                                    "type": "string"
-                                  },
-                                  "ext": {
-                                    "type": "string"
-                                  },
-                                  "mime": {
-                                    "type": "string"
-                                  },
-                                  "size": {
-                                    "type": "number"
-                                  },
-                                  "url": {
-                                    "type": "string"
-                                  },
-                                  "previewUrl": {
-                                    "type": "string"
-                                  },
-                                  "provider": {
-                                    "type": "string"
-                                  },
-                                  "provider_metadata": {
-                                    "type": "object"
-                                  },
-                                  "related": {
-                                    "type": "string"
-                                  },
-                                  "created_by": {
-                                    "type": "string"
-                                  },
-                                  "updated_by": {
-                                    "type": "string"
-                                  }
-                                }
-                              },
-                              "caption": {
-                                "type": "string"
-                              },
-                              "url": {
-                                "type": "string"
-                              }
-                            },
-                            "required": [
-                              "id",
-                              "source"
-                            ]
-                          },
-                          {
-                            "properties": {
-                              "__component": {
-                                "type": "string",
-                                "enum": [
-                                  "base.image",
-                                  "base.table",
-                                  "base.text"
-                                ]
-                              },
-                              "id": {
-                                "type": "string"
-                              },
-                              "entries": {
-                                "type": "array",
-                                "items": {
-                                  "type": "object",
-                                  "required": [
-                                    "id",
-                                    "name",
-                                    "values"
-                                  ],
-                                  "properties": {
-                                    "id": {
-                                      "type": "string"
-                                    },
-                                    "name": {
-                                      "type": "string"
-                                    },
-                                    "values": {
-                                      "type": "array",
-                                      "items": {
-                                        "type": "object",
-                                        "required": [
-                                          "id",
-                                          "value"
-                                        ],
-                                        "properties": {
-                                          "id": {
-                                            "type": "string"
-                                          },
-                                          "value": {
-                                            "type": "string"
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "required": [
-                              "id"
-                            ]
-                          },
-                          {
-                            "properties": {
-                              "__component": {
-                                "type": "string",
-                                "enum": [
-                                  "base.image",
-                                  "base.table",
-                                  "base.text"
-                                ]
-                              },
-                              "id": {
-                                "type": "string"
-                              },
-                              "title": {
-                                "type": "string"
-                              },
-                              "content": {
-                                "type": "string"
-                              }
-                            },
-                            "required": [
-                              "id",
-                              "content"
-                            ]
-                          }
-                        ]
-                      }
-                    },
-                    "right": {
-                      "type": "array",
-                      "items": {
-                        "oneOf": [
-                          {
-                            "properties": {
-                              "__component": {
-                                "type": "string",
-                                "enum": [
-                                  "base.image",
-                                  "base.table",
-                                  "base.text"
-                                ]
-                              },
-                              "id": {
-                                "type": "string"
-                              },
-                              "source": {
-                                "required": [
-                                  "id",
-                                  "name",
-                                  "hash",
-                                  "mime",
-                                  "size",
-                                  "url",
-                                  "provider"
-                                ],
-                                "properties": {
-                                  "id": {
-                                    "type": "string"
-                                  },
-                                  "name": {
-                                    "type": "string"
-                                  },
-                                  "alternativeText": {
-                                    "type": "string"
-                                  },
-                                  "caption": {
-                                    "type": "string"
-                                  },
-                                  "width": {
-                                    "type": "integer"
-                                  },
-                                  "height": {
-                                    "type": "integer"
-                                  },
-                                  "formats": {
-                                    "type": "object"
-                                  },
-                                  "hash": {
-                                    "type": "string"
-                                  },
-                                  "ext": {
-                                    "type": "string"
-                                  },
-                                  "mime": {
-                                    "type": "string"
-                                  },
-                                  "size": {
-                                    "type": "number"
-                                  },
-                                  "url": {
-                                    "type": "string"
-                                  },
-                                  "previewUrl": {
-                                    "type": "string"
-                                  },
-                                  "provider": {
-                                    "type": "string"
-                                  },
-                                  "provider_metadata": {
-                                    "type": "object"
-                                  },
-                                  "related": {
-                                    "type": "string"
-                                  },
-                                  "created_by": {
-                                    "type": "string"
-                                  },
-                                  "updated_by": {
-                                    "type": "string"
-                                  }
-                                }
-                              },
-                              "caption": {
-                                "type": "string"
-                              },
-                              "url": {
-                                "type": "string"
-                              }
-                            },
-                            "required": [
-                              "id",
-                              "source"
-                            ]
-                          },
-                          {
-                            "properties": {
-                              "__component": {
-                                "type": "string",
-                                "enum": [
-                                  "base.image",
-                                  "base.table",
-                                  "base.text"
-                                ]
-                              },
-                              "id": {
-                                "type": "string"
-                              },
-                              "entries": {
-                                "type": "array",
-                                "items": {
-                                  "type": "object",
-                                  "required": [
-                                    "id",
-                                    "name",
-                                    "values"
-                                  ],
-                                  "properties": {
-                                    "id": {
-                                      "type": "string"
-                                    },
-                                    "name": {
-                                      "type": "string"
-                                    },
-                                    "values": {
-                                      "type": "array",
-                                      "items": {
-                                        "type": "object",
-                                        "required": [
-                                          "id",
-                                          "value"
-                                        ],
-                                        "properties": {
-                                          "id": {
-                                            "type": "string"
-                                          },
-                                          "value": {
-                                            "type": "string"
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "required": [
-                              "id"
-                            ]
-                          },
-                          {
-                            "properties": {
-                              "__component": {
-                                "type": "string",
-                                "enum": [
-                                  "base.image",
-                                  "base.table",
-                                  "base.text"
-                                ]
-                              },
-                              "id": {
-                                "type": "string"
-                              },
-                              "title": {
-                                "type": "string"
-                              },
-                              "content": {
-                                "type": "string"
-                              }
-                            },
-                            "required": [
-                              "id",
-                              "content"
-                            ]
-                          }
-                        ]
-                      }
-                    }
-                  },
-                  "required": [
-                    "id",
-                    "left",
-                    "right"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "layout.full-width",
-                        "layout.centered",
-                        "layout.full-width-image"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "content": {
-                      "type": "array",
-                      "items": {
-                        "oneOf": [
-                          {
-                            "properties": {
-                              "__component": {
-                                "type": "string",
-                                "enum": [
-                                  "base.image",
-                                  "base.table",
-                                  "base.text"
-                                ]
-                              },
-                              "id": {
-                                "type": "string"
-                              },
-                              "source": {
-                                "required": [
-                                  "id",
-                                  "name",
-                                  "hash",
-                                  "mime",
-                                  "size",
-                                  "url",
-                                  "provider"
-                                ],
-                                "properties": {
-                                  "id": {
-                                    "type": "string"
-                                  },
-                                  "name": {
-                                    "type": "string"
-                                  },
-                                  "alternativeText": {
-                                    "type": "string"
-                                  },
-                                  "caption": {
-                                    "type": "string"
-                                  },
-                                  "width": {
-                                    "type": "integer"
-                                  },
-                                  "height": {
-                                    "type": "integer"
-                                  },
-                                  "formats": {
-                                    "type": "object"
-                                  },
-                                  "hash": {
-                                    "type": "string"
-                                  },
-                                  "ext": {
-                                    "type": "string"
-                                  },
-                                  "mime": {
-                                    "type": "string"
-                                  },
-                                  "size": {
-                                    "type": "number"
-                                  },
-                                  "url": {
-                                    "type": "string"
-                                  },
-                                  "previewUrl": {
-                                    "type": "string"
-                                  },
-                                  "provider": {
-                                    "type": "string"
-                                  },
-                                  "provider_metadata": {
-                                    "type": "object"
-                                  },
-                                  "related": {
-                                    "type": "string"
-                                  },
-                                  "created_by": {
-                                    "type": "string"
-                                  },
-                                  "updated_by": {
-                                    "type": "string"
-                                  }
-                                }
-                              },
-                              "caption": {
-                                "type": "string"
-                              },
-                              "url": {
-                                "type": "string"
-                              }
-                            },
-                            "required": [
-                              "id",
-                              "source"
-                            ]
-                          },
-                          {
-                            "properties": {
-                              "__component": {
-                                "type": "string",
-                                "enum": [
-                                  "base.image",
-                                  "base.table",
-                                  "base.text"
-                                ]
-                              },
-                              "id": {
-                                "type": "string"
-                              },
-                              "entries": {
-                                "type": "array",
-                                "items": {
-                                  "type": "object",
-                                  "required": [
-                                    "id",
-                                    "name",
-                                    "values"
-                                  ],
-                                  "properties": {
-                                    "id": {
-                                      "type": "string"
-                                    },
-                                    "name": {
-                                      "type": "string"
-                                    },
-                                    "values": {
-                                      "type": "array",
-                                      "items": {
-                                        "type": "object",
-                                        "required": [
-                                          "id",
-                                          "value"
-                                        ],
-                                        "properties": {
-                                          "id": {
-                                            "type": "string"
-                                          },
-                                          "value": {
-                                            "type": "string"
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "required": [
-                              "id"
-                            ]
-                          },
-                          {
-                            "properties": {
-                              "__component": {
-                                "type": "string",
-                                "enum": [
-                                  "base.image",
-                                  "base.table",
-                                  "base.text"
-                                ]
-                              },
-                              "id": {
-                                "type": "string"
-                              },
-                              "title": {
-                                "type": "string"
-                              },
-                              "content": {
-                                "type": "string"
-                              }
-                            },
-                            "required": [
-                              "id",
-                              "content"
-                            ]
-                          }
-                        ]
-                      }
-                    }
-                  },
-                  "required": [
-                    "id",
-                    "content"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "layout.full-width",
-                        "layout.centered",
-                        "layout.full-width-image"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "image": {
-                      "type": "object",
+                    "source": {
                       "required": [
                         "id",
-                        "source"
+                        "name",
+                        "hash",
+                        "mime",
+                        "size",
+                        "url",
+                        "provider"
                       ],
                       "properties": {
                         "id": {
                           "type": "string"
                         },
-                        "source": {
-                          "required": [
-                            "id",
-                            "name",
-                            "hash",
-                            "mime",
-                            "size",
-                            "url",
-                            "provider"
-                          ],
-                          "properties": {
-                            "id": {
-                              "type": "string"
-                            },
-                            "name": {
-                              "type": "string"
-                            },
-                            "alternativeText": {
-                              "type": "string"
-                            },
-                            "caption": {
-                              "type": "string"
-                            },
-                            "width": {
-                              "type": "integer"
-                            },
-                            "height": {
-                              "type": "integer"
-                            },
-                            "formats": {
-                              "type": "object"
-                            },
-                            "hash": {
-                              "type": "string"
-                            },
-                            "ext": {
-                              "type": "string"
-                            },
-                            "mime": {
-                              "type": "string"
-                            },
-                            "size": {
-                              "type": "number"
-                            },
-                            "url": {
-                              "type": "string"
-                            },
-                            "previewUrl": {
-                              "type": "string"
-                            },
-                            "provider": {
-                              "type": "string"
-                            },
-                            "provider_metadata": {
-                              "type": "object"
-                            },
-                            "related": {
-                              "type": "string"
-                            },
-                            "created_by": {
-                              "type": "string"
-                            },
-                            "updated_by": {
-                              "type": "string"
-                            }
-                          }
+                        "name": {
+                          "type": "string"
+                        },
+                        "alternativeText": {
+                          "type": "string"
                         },
                         "caption": {
                           "type": "string"
                         },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "formats": {
+                          "type": "object"
+                        },
+                        "hash": {
+                          "type": "string"
+                        },
+                        "ext": {
+                          "type": "string"
+                        },
+                        "mime": {
+                          "type": "string"
+                        },
+                        "size": {
+                          "type": "number"
+                        },
                         "url": {
                           "type": "string"
+                        },
+                        "previewUrl": {
+                          "type": "string"
+                        },
+                        "provider": {
+                          "type": "string"
+                        },
+                        "provider_metadata": {
+                          "type": "object"
+                        },
+                        "related": {
+                          "type": "string"
+                        },
+                        "created_by": {
+                          "type": "string"
+                        },
+                        "updated_by": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "caption": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "layout": {
+                      "type": "object",
+                      "required": [
+                        "id",
+                        "column_start",
+                        "column_end"
+                      ],
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "column_start": {
+                          "type": "integer"
+                        },
+                        "column_end": {
+                          "type": "integer"
                         }
                       }
                     }
                   },
                   "required": [
                     "id",
-                    "image"
+                    "source",
+                    "layout"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "base.image",
+                        "base.layout",
+                        "base.table",
+                        "base.text"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "column_start": {
+                      "type": "integer"
+                    },
+                    "column_end": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "column_start",
+                    "column_end"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "base.image",
+                        "base.layout",
+                        "base.table",
+                        "base.text"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "entries": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "id",
+                          "name",
+                          "values"
+                        ],
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "name": {
+                            "type": "string"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "required": [
+                                "id",
+                                "value"
+                              ],
+                              "properties": {
+                                "id": {
+                                  "type": "string"
+                                },
+                                "value": {
+                                  "type": "string"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "layout": {
+                      "type": "object",
+                      "required": [
+                        "id",
+                        "column_start",
+                        "column_end"
+                      ],
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "column_start": {
+                          "type": "integer"
+                        },
+                        "column_end": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "layout"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "base.image",
+                        "base.layout",
+                        "base.table",
+                        "base.text"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "content": {
+                      "type": "string"
+                    },
+                    "layout": {
+                      "type": "object",
+                      "required": [
+                        "id",
+                        "column_start",
+                        "column_end"
+                      ],
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "column_start": {
+                          "type": "integer"
+                        },
+                        "column_end": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "content",
+                    "layout"
                   ]
                 }
               ]
             }
-          },
-          "published_at": {
-            "type": "string",
-            "format": "date-time"
           }
         }
       },
       "NewRaumgestaltung": {
+        "required": [
+          "body"
+        ],
         "properties": {
           "body": {
             "type": "array",
@@ -1022,687 +604,265 @@
                     "__component": {
                       "type": "string",
                       "enum": [
-                        "layout.full-width",
-                        "layout.centered",
-                        "layout.full-width-image"
+                        "base.image",
+                        "base.layout",
+                        "base.table",
+                        "base.text"
                       ]
                     },
                     "id": {
                       "type": "string"
                     },
-                    "left": {
-                      "type": "array",
-                      "items": {
-                        "oneOf": [
-                          {
-                            "properties": {
-                              "__component": {
-                                "type": "string",
-                                "enum": [
-                                  "base.image",
-                                  "base.table",
-                                  "base.text"
-                                ]
-                              },
-                              "id": {
-                                "type": "string"
-                              },
-                              "source": {
-                                "required": [
-                                  "id",
-                                  "name",
-                                  "hash",
-                                  "mime",
-                                  "size",
-                                  "url",
-                                  "provider"
-                                ],
-                                "properties": {
-                                  "id": {
-                                    "type": "string"
-                                  },
-                                  "name": {
-                                    "type": "string"
-                                  },
-                                  "alternativeText": {
-                                    "type": "string"
-                                  },
-                                  "caption": {
-                                    "type": "string"
-                                  },
-                                  "width": {
-                                    "type": "integer"
-                                  },
-                                  "height": {
-                                    "type": "integer"
-                                  },
-                                  "formats": {
-                                    "type": "object"
-                                  },
-                                  "hash": {
-                                    "type": "string"
-                                  },
-                                  "ext": {
-                                    "type": "string"
-                                  },
-                                  "mime": {
-                                    "type": "string"
-                                  },
-                                  "size": {
-                                    "type": "number"
-                                  },
-                                  "url": {
-                                    "type": "string"
-                                  },
-                                  "previewUrl": {
-                                    "type": "string"
-                                  },
-                                  "provider": {
-                                    "type": "string"
-                                  },
-                                  "provider_metadata": {
-                                    "type": "object"
-                                  },
-                                  "related": {
-                                    "type": "string"
-                                  },
-                                  "created_by": {
-                                    "type": "string"
-                                  },
-                                  "updated_by": {
-                                    "type": "string"
-                                  }
-                                }
-                              },
-                              "caption": {
-                                "type": "string"
-                              },
-                              "url": {
-                                "type": "string"
-                              }
-                            },
-                            "required": [
-                              "id",
-                              "source"
-                            ]
-                          },
-                          {
-                            "properties": {
-                              "__component": {
-                                "type": "string",
-                                "enum": [
-                                  "base.image",
-                                  "base.table",
-                                  "base.text"
-                                ]
-                              },
-                              "id": {
-                                "type": "string"
-                              },
-                              "entries": {
-                                "type": "array",
-                                "items": {
-                                  "type": "object",
-                                  "required": [
-                                    "id",
-                                    "name",
-                                    "values"
-                                  ],
-                                  "properties": {
-                                    "id": {
-                                      "type": "string"
-                                    },
-                                    "name": {
-                                      "type": "string"
-                                    },
-                                    "values": {
-                                      "type": "array",
-                                      "items": {
-                                        "type": "object",
-                                        "required": [
-                                          "id",
-                                          "value"
-                                        ],
-                                        "properties": {
-                                          "id": {
-                                            "type": "string"
-                                          },
-                                          "value": {
-                                            "type": "string"
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "required": [
-                              "id"
-                            ]
-                          },
-                          {
-                            "properties": {
-                              "__component": {
-                                "type": "string",
-                                "enum": [
-                                  "base.image",
-                                  "base.table",
-                                  "base.text"
-                                ]
-                              },
-                              "id": {
-                                "type": "string"
-                              },
-                              "title": {
-                                "type": "string"
-                              },
-                              "content": {
-                                "type": "string"
-                              }
-                            },
-                            "required": [
-                              "id",
-                              "content"
-                            ]
-                          }
-                        ]
-                      }
-                    },
-                    "right": {
-                      "type": "array",
-                      "items": {
-                        "oneOf": [
-                          {
-                            "properties": {
-                              "__component": {
-                                "type": "string",
-                                "enum": [
-                                  "base.image",
-                                  "base.table",
-                                  "base.text"
-                                ]
-                              },
-                              "id": {
-                                "type": "string"
-                              },
-                              "source": {
-                                "required": [
-                                  "id",
-                                  "name",
-                                  "hash",
-                                  "mime",
-                                  "size",
-                                  "url",
-                                  "provider"
-                                ],
-                                "properties": {
-                                  "id": {
-                                    "type": "string"
-                                  },
-                                  "name": {
-                                    "type": "string"
-                                  },
-                                  "alternativeText": {
-                                    "type": "string"
-                                  },
-                                  "caption": {
-                                    "type": "string"
-                                  },
-                                  "width": {
-                                    "type": "integer"
-                                  },
-                                  "height": {
-                                    "type": "integer"
-                                  },
-                                  "formats": {
-                                    "type": "object"
-                                  },
-                                  "hash": {
-                                    "type": "string"
-                                  },
-                                  "ext": {
-                                    "type": "string"
-                                  },
-                                  "mime": {
-                                    "type": "string"
-                                  },
-                                  "size": {
-                                    "type": "number"
-                                  },
-                                  "url": {
-                                    "type": "string"
-                                  },
-                                  "previewUrl": {
-                                    "type": "string"
-                                  },
-                                  "provider": {
-                                    "type": "string"
-                                  },
-                                  "provider_metadata": {
-                                    "type": "object"
-                                  },
-                                  "related": {
-                                    "type": "string"
-                                  },
-                                  "created_by": {
-                                    "type": "string"
-                                  },
-                                  "updated_by": {
-                                    "type": "string"
-                                  }
-                                }
-                              },
-                              "caption": {
-                                "type": "string"
-                              },
-                              "url": {
-                                "type": "string"
-                              }
-                            },
-                            "required": [
-                              "id",
-                              "source"
-                            ]
-                          },
-                          {
-                            "properties": {
-                              "__component": {
-                                "type": "string",
-                                "enum": [
-                                  "base.image",
-                                  "base.table",
-                                  "base.text"
-                                ]
-                              },
-                              "id": {
-                                "type": "string"
-                              },
-                              "entries": {
-                                "type": "array",
-                                "items": {
-                                  "type": "object",
-                                  "required": [
-                                    "id",
-                                    "name",
-                                    "values"
-                                  ],
-                                  "properties": {
-                                    "id": {
-                                      "type": "string"
-                                    },
-                                    "name": {
-                                      "type": "string"
-                                    },
-                                    "values": {
-                                      "type": "array",
-                                      "items": {
-                                        "type": "object",
-                                        "required": [
-                                          "id",
-                                          "value"
-                                        ],
-                                        "properties": {
-                                          "id": {
-                                            "type": "string"
-                                          },
-                                          "value": {
-                                            "type": "string"
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "required": [
-                              "id"
-                            ]
-                          },
-                          {
-                            "properties": {
-                              "__component": {
-                                "type": "string",
-                                "enum": [
-                                  "base.image",
-                                  "base.table",
-                                  "base.text"
-                                ]
-                              },
-                              "id": {
-                                "type": "string"
-                              },
-                              "title": {
-                                "type": "string"
-                              },
-                              "content": {
-                                "type": "string"
-                              }
-                            },
-                            "required": [
-                              "id",
-                              "content"
-                            ]
-                          }
-                        ]
-                      }
-                    }
-                  },
-                  "required": [
-                    "id",
-                    "left",
-                    "right"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "layout.full-width",
-                        "layout.centered",
-                        "layout.full-width-image"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "content": {
-                      "type": "array",
-                      "items": {
-                        "oneOf": [
-                          {
-                            "properties": {
-                              "__component": {
-                                "type": "string",
-                                "enum": [
-                                  "base.image",
-                                  "base.table",
-                                  "base.text"
-                                ]
-                              },
-                              "id": {
-                                "type": "string"
-                              },
-                              "source": {
-                                "required": [
-                                  "id",
-                                  "name",
-                                  "hash",
-                                  "mime",
-                                  "size",
-                                  "url",
-                                  "provider"
-                                ],
-                                "properties": {
-                                  "id": {
-                                    "type": "string"
-                                  },
-                                  "name": {
-                                    "type": "string"
-                                  },
-                                  "alternativeText": {
-                                    "type": "string"
-                                  },
-                                  "caption": {
-                                    "type": "string"
-                                  },
-                                  "width": {
-                                    "type": "integer"
-                                  },
-                                  "height": {
-                                    "type": "integer"
-                                  },
-                                  "formats": {
-                                    "type": "object"
-                                  },
-                                  "hash": {
-                                    "type": "string"
-                                  },
-                                  "ext": {
-                                    "type": "string"
-                                  },
-                                  "mime": {
-                                    "type": "string"
-                                  },
-                                  "size": {
-                                    "type": "number"
-                                  },
-                                  "url": {
-                                    "type": "string"
-                                  },
-                                  "previewUrl": {
-                                    "type": "string"
-                                  },
-                                  "provider": {
-                                    "type": "string"
-                                  },
-                                  "provider_metadata": {
-                                    "type": "object"
-                                  },
-                                  "related": {
-                                    "type": "string"
-                                  },
-                                  "created_by": {
-                                    "type": "string"
-                                  },
-                                  "updated_by": {
-                                    "type": "string"
-                                  }
-                                }
-                              },
-                              "caption": {
-                                "type": "string"
-                              },
-                              "url": {
-                                "type": "string"
-                              }
-                            },
-                            "required": [
-                              "id",
-                              "source"
-                            ]
-                          },
-                          {
-                            "properties": {
-                              "__component": {
-                                "type": "string",
-                                "enum": [
-                                  "base.image",
-                                  "base.table",
-                                  "base.text"
-                                ]
-                              },
-                              "id": {
-                                "type": "string"
-                              },
-                              "entries": {
-                                "type": "array",
-                                "items": {
-                                  "type": "object",
-                                  "required": [
-                                    "id",
-                                    "name",
-                                    "values"
-                                  ],
-                                  "properties": {
-                                    "id": {
-                                      "type": "string"
-                                    },
-                                    "name": {
-                                      "type": "string"
-                                    },
-                                    "values": {
-                                      "type": "array",
-                                      "items": {
-                                        "type": "object",
-                                        "required": [
-                                          "id",
-                                          "value"
-                                        ],
-                                        "properties": {
-                                          "id": {
-                                            "type": "string"
-                                          },
-                                          "value": {
-                                            "type": "string"
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            },
-                            "required": [
-                              "id"
-                            ]
-                          },
-                          {
-                            "properties": {
-                              "__component": {
-                                "type": "string",
-                                "enum": [
-                                  "base.image",
-                                  "base.table",
-                                  "base.text"
-                                ]
-                              },
-                              "id": {
-                                "type": "string"
-                              },
-                              "title": {
-                                "type": "string"
-                              },
-                              "content": {
-                                "type": "string"
-                              }
-                            },
-                            "required": [
-                              "id",
-                              "content"
-                            ]
-                          }
-                        ]
-                      }
-                    }
-                  },
-                  "required": [
-                    "id",
-                    "content"
-                  ]
-                },
-                {
-                  "properties": {
-                    "__component": {
-                      "type": "string",
-                      "enum": [
-                        "layout.full-width",
-                        "layout.centered",
-                        "layout.full-width-image"
-                      ]
-                    },
-                    "id": {
-                      "type": "string"
-                    },
-                    "image": {
-                      "type": "object",
+                    "source": {
                       "required": [
                         "id",
-                        "source"
+                        "name",
+                        "hash",
+                        "mime",
+                        "size",
+                        "url",
+                        "provider"
                       ],
                       "properties": {
                         "id": {
                           "type": "string"
                         },
-                        "source": {
-                          "required": [
-                            "id",
-                            "name",
-                            "hash",
-                            "mime",
-                            "size",
-                            "url",
-                            "provider"
-                          ],
-                          "properties": {
-                            "id": {
-                              "type": "string"
-                            },
-                            "name": {
-                              "type": "string"
-                            },
-                            "alternativeText": {
-                              "type": "string"
-                            },
-                            "caption": {
-                              "type": "string"
-                            },
-                            "width": {
-                              "type": "integer"
-                            },
-                            "height": {
-                              "type": "integer"
-                            },
-                            "formats": {
-                              "type": "object"
-                            },
-                            "hash": {
-                              "type": "string"
-                            },
-                            "ext": {
-                              "type": "string"
-                            },
-                            "mime": {
-                              "type": "string"
-                            },
-                            "size": {
-                              "type": "number"
-                            },
-                            "url": {
-                              "type": "string"
-                            },
-                            "previewUrl": {
-                              "type": "string"
-                            },
-                            "provider": {
-                              "type": "string"
-                            },
-                            "provider_metadata": {
-                              "type": "object"
-                            },
-                            "related": {
-                              "type": "string"
-                            },
-                            "created_by": {
-                              "type": "string"
-                            },
-                            "updated_by": {
-                              "type": "string"
-                            }
-                          }
+                        "name": {
+                          "type": "string"
+                        },
+                        "alternativeText": {
+                          "type": "string"
                         },
                         "caption": {
                           "type": "string"
                         },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "formats": {
+                          "type": "object"
+                        },
+                        "hash": {
+                          "type": "string"
+                        },
+                        "ext": {
+                          "type": "string"
+                        },
+                        "mime": {
+                          "type": "string"
+                        },
+                        "size": {
+                          "type": "number"
+                        },
                         "url": {
                           "type": "string"
+                        },
+                        "previewUrl": {
+                          "type": "string"
+                        },
+                        "provider": {
+                          "type": "string"
+                        },
+                        "provider_metadata": {
+                          "type": "object"
+                        },
+                        "related": {
+                          "type": "string"
+                        },
+                        "created_by": {
+                          "type": "string"
+                        },
+                        "updated_by": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "caption": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "layout": {
+                      "type": "object",
+                      "required": [
+                        "id",
+                        "column_start",
+                        "column_end"
+                      ],
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "column_start": {
+                          "type": "integer"
+                        },
+                        "column_end": {
+                          "type": "integer"
                         }
                       }
                     }
                   },
                   "required": [
                     "id",
-                    "image"
+                    "source",
+                    "layout"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "base.image",
+                        "base.layout",
+                        "base.table",
+                        "base.text"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "column_start": {
+                      "type": "integer"
+                    },
+                    "column_end": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "column_start",
+                    "column_end"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "base.image",
+                        "base.layout",
+                        "base.table",
+                        "base.text"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "entries": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": [
+                          "id",
+                          "name",
+                          "values"
+                        ],
+                        "properties": {
+                          "id": {
+                            "type": "string"
+                          },
+                          "name": {
+                            "type": "string"
+                          },
+                          "values": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "required": [
+                                "id",
+                                "value"
+                              ],
+                              "properties": {
+                                "id": {
+                                  "type": "string"
+                                },
+                                "value": {
+                                  "type": "string"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "layout": {
+                      "type": "object",
+                      "required": [
+                        "id",
+                        "column_start",
+                        "column_end"
+                      ],
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "column_start": {
+                          "type": "integer"
+                        },
+                        "column_end": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "layout"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "base.image",
+                        "base.layout",
+                        "base.table",
+                        "base.text"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "content": {
+                      "type": "string"
+                    },
+                    "layout": {
+                      "type": "object",
+                      "required": [
+                        "id",
+                        "column_start",
+                        "column_end"
+                      ],
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "column_start": {
+                          "type": "integer"
+                        },
+                        "column_end": {
+                          "type": "integer"
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "content",
+                    "layout"
                   ]
                 }
               ]
             }
-          },
-          "published_at": {
-            "type": "string",
-            "format": "date-time"
           },
           "created_by": {
             "type": "string"

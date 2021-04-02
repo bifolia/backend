@@ -8,7 +8,7 @@
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "attributes": {
     "name": {
@@ -35,10 +35,12 @@
     "body": {
       "type": "dynamiczone",
       "components": [
-        "layout.centered",
-        "layout.full-width",
-        "layout.full-width-image"
-      ]
+        "base.image",
+        "base.layout",
+        "base.table",
+        "base.text"
+      ],
+      "required": true
     }
   }
 }

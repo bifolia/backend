@@ -21,6 +21,12 @@
     },
     "url": {
       "type": "string"
+    },
+    "layout": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base.layout",
+      "required": true
     }
   }
 }

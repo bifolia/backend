@@ -8,16 +8,18 @@
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "attributes": {
     "body": {
       "type": "dynamiczone",
       "components": [
-        "layout.full-width",
-        "layout.centered",
-        "layout.full-width-image"
-      ]
+        "base.image",
+        "base.layout",
+        "base.table",
+        "base.text"
+      ],
+      "required": true
     }
   }
 }

@@ -12,6 +12,12 @@
     "content": {
       "type": "richtext",
       "required": true
+    },
+    "layout": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base.layout",
+      "required": true
     }
   }
 }
