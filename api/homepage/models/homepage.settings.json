@@ -15,7 +15,8 @@
       "type": "dynamiczone",
       "components": [
         "layout.full-width",
-        "layout.centered"
+        "layout.centered",
+        "layout.full-width-image"
       ],
       "required": true
     }

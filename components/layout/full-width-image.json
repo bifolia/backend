@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layout_full_width_images",
+  "info": {
+    "name": "Full-Width Image",
+    "icon": "images"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "base.image",
+      "required": true
+    }
+  }
+}
