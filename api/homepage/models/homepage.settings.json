@@ -14,7 +14,6 @@
       "type": "dynamiczone",
       "components": [
         "base.image",
-        "base.layout",
         "base.table",
         "base.text"
       ],
