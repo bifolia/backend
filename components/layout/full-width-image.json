@@ -2,13 +2,14 @@
   "collectionName": "components_layout_full_width_images",
   "info": {
     "name": "Full-Width Image",
-    "icon": "images"
+    "icon": "images",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "base.image",
       "required": true
     }
