@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_base_texts",
+  "info": {
+    "name": "Text",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

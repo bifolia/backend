@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "pflanzplanungs",
+  "info": {
+    "name": "Pflanzplanung"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "layout.full-width",
+        "layout.centered"
+      ]
+    }
+  }
+}

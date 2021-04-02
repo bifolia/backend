@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pflanzplanung",
+      "handler": "pflanzplanung.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pflanzplanung",
+      "handler": "pflanzplanung.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pflanzplanung",
+      "handler": "pflanzplanung.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1188,7 +1188,8 @@
         "required": [
           "id",
           "username",
-          "email"
+          "email",
+          "name"
         ],
         "properties": {
           "id": {
@@ -1250,13 +1251,17 @@
                 "type": "string"
               }
             }
+          },
+          "name": {
+            "type": "string"
           }
         }
       },
       "NewUsersPermissionsUser": {
         "required": [
           "username",
-          "email"
+          "email",
+          "name"
         ],
         "properties": {
           "username": {
@@ -1290,6 +1295,9 @@
             "default": false
           },
           "role": {
+            "type": "string"
+          },
+          "name": {
             "type": "string"
           },
           "created_by": {

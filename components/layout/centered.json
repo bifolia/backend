@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_layout_centereds",
+  "info": {
+    "name": "Centered",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "base.image",
+        "base.table",
+        "base.text"
+      ],
+      "required": true
+    }
+  }
+}

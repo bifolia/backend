@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "texts",
+  "info": {
+    "name": "Text",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "authors": {
+      "plugin": "users-permissions",
+      "collection": "user"
+    },
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "layout.centered",
+        "layout.full-width"
+      ],
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_layout_full_widths",
+  "info": {
+    "name": "Full-Width",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "left": {
+      "type": "dynamiczone",
+      "components": [
+        "base.image",
+        "base.table",
+        "base.text"
+      ],
+      "required": true
+    },
+    "right": {
+      "type": "dynamiczone",
+      "components": [
+        "base.image",
+        "base.table",
+        "base.text"
+      ],
+      "required": true
+    }
+  }
+}

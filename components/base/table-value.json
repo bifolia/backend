@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_base_table_values",
+  "info": {
+    "name": "Table Value",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
