@@ -698,18 +698,19 @@
                       "type": "object",
                       "required": [
                         "id",
-                        "column_start",
-                        "column_end"
+                        "layout"
                       ],
                       "properties": {
                         "id": {
                           "type": "string"
                         },
-                        "column_start": {
-                          "type": "integer"
-                        },
-                        "column_end": {
-                          "type": "integer"
+                        "layout": {
+                          "type": "string",
+                          "enum": [
+                            "full",
+                            "left",
+                            "right"
+                          ]
                         }
                       }
                     }
@@ -774,18 +775,19 @@
                       "type": "object",
                       "required": [
                         "id",
-                        "column_start",
-                        "column_end"
+                        "layout"
                       ],
                       "properties": {
                         "id": {
                           "type": "string"
                         },
-                        "column_start": {
-                          "type": "integer"
-                        },
-                        "column_end": {
-                          "type": "integer"
+                        "layout": {
+                          "type": "string",
+                          "enum": [
+                            "full",
+                            "left",
+                            "right"
+                          ]
                         }
                       }
                     }
@@ -818,18 +820,19 @@
                       "type": "object",
                       "required": [
                         "id",
-                        "column_start",
-                        "column_end"
+                        "layout"
                       ],
                       "properties": {
                         "id": {
                           "type": "string"
                         },
-                        "column_start": {
-                          "type": "integer"
-                        },
-                        "column_end": {
-                          "type": "integer"
+                        "layout": {
+                          "type": "string",
+                          "enum": [
+                            "full",
+                            "left",
+                            "right"
+                          ]
                         }
                       }
                     }
@@ -957,18 +960,19 @@
                       "type": "object",
                       "required": [
                         "id",
-                        "column_start",
-                        "column_end"
+                        "layout"
                       ],
                       "properties": {
                         "id": {
                           "type": "string"
                         },
-                        "column_start": {
-                          "type": "integer"
-                        },
-                        "column_end": {
-                          "type": "integer"
+                        "layout": {
+                          "type": "string",
+                          "enum": [
+                            "full",
+                            "left",
+                            "right"
+                          ]
                         }
                       }
                     }
@@ -1033,18 +1037,19 @@
                       "type": "object",
                       "required": [
                         "id",
-                        "column_start",
-                        "column_end"
+                        "layout"
                       ],
                       "properties": {
                         "id": {
                           "type": "string"
                         },
-                        "column_start": {
-                          "type": "integer"
-                        },
-                        "column_end": {
-                          "type": "integer"
+                        "layout": {
+                          "type": "string",
+                          "enum": [
+                            "full",
+                            "left",
+                            "right"
+                          ]
                         }
                       }
                     }
@@ -1077,18 +1082,19 @@
                       "type": "object",
                       "required": [
                         "id",
-                        "column_start",
-                        "column_end"
+                        "layout"
                       ],
                       "properties": {
                         "id": {
                           "type": "string"
                         },
-                        "column_start": {
-                          "type": "integer"
-                        },
-                        "column_end": {
-                          "type": "integer"
+                        "layout": {
+                          "type": "string",
+                          "enum": [
+                            "full",
+                            "left",
+                            "right"
+                          ]
                         }
                       }
                     }
