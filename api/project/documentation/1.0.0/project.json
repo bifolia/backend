@@ -835,12 +835,17 @@
                           ]
                         }
                       }
+                    },
+                    "is_large": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
-                    "layout"
+                    "layout",
+                    "is_large"
                   ]
                 }
               ]
@@ -1097,12 +1102,17 @@
                           ]
                         }
                       }
+                    },
+                    "is_large": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
-                    "layout"
+                    "layout",
+                    "is_large"
                   ]
                 }
               ]

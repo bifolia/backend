@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "04/02/2021 8:59:57 PM"
+    "x-generation-date": "04/03/2021 8:50:18 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5514,12 +5514,17 @@
                           ]
                         }
                       }
+                    },
+                    "is_large": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
-                    "layout"
+                    "layout",
+                    "is_large"
                   ]
                 }
               ]
@@ -5763,12 +5768,17 @@
                           ]
                         }
                       }
+                    },
+                    "is_large": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
-                    "layout"
+                    "layout",
+                    "is_large"
                   ]
                 }
               ]
@@ -6022,12 +6032,17 @@
                           ]
                         }
                       }
+                    },
+                    "is_large": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
-                    "layout"
+                    "layout",
+                    "is_large"
                   ]
                 }
               ]
@@ -6271,12 +6286,17 @@
                           ]
                         }
                       }
+                    },
+                    "is_large": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
-                    "layout"
+                    "layout",
+                    "is_large"
                   ]
                 }
               ]
@@ -6530,12 +6550,17 @@
                           ]
                         }
                       }
+                    },
+                    "is_large": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
-                    "layout"
+                    "layout",
+                    "is_large"
                   ]
                 }
               ]
@@ -6779,12 +6804,17 @@
                           ]
                         }
                       }
+                    },
+                    "is_large": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
-                    "layout"
+                    "layout",
+                    "is_large"
                   ]
                 }
               ]
@@ -7119,12 +7149,17 @@
                           ]
                         }
                       }
+                    },
+                    "is_large": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
-                    "layout"
+                    "layout",
+                    "is_large"
                   ]
                 }
               ]
@@ -7381,12 +7416,17 @@
                           ]
                         }
                       }
+                    },
+                    "is_large": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
-                    "layout"
+                    "layout",
+                    "is_large"
                   ]
                 }
               ]
@@ -7640,12 +7680,17 @@
                           ]
                         }
                       }
+                    },
+                    "is_large": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
-                    "layout"
+                    "layout",
+                    "is_large"
                   ]
                 }
               ]
@@ -7889,12 +7934,17 @@
                           ]
                         }
                       }
+                    },
+                    "is_large": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
-                    "layout"
+                    "layout",
+                    "is_large"
                   ]
                 }
               ]
@@ -8148,12 +8198,17 @@
                           ]
                         }
                       }
+                    },
+                    "is_large": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
-                    "layout"
+                    "layout",
+                    "is_large"
                   ]
                 }
               ]
@@ -8397,12 +8452,17 @@
                           ]
                         }
                       }
+                    },
+                    "is_large": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
-                    "layout"
+                    "layout",
+                    "is_large"
                   ]
                 }
               ]
@@ -8716,12 +8776,17 @@
                           ]
                         }
                       }
+                    },
+                    "is_large": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
-                    "layout"
+                    "layout",
+                    "is_large"
                   ]
                 }
               ]
@@ -8979,12 +9044,17 @@
                           ]
                         }
                       }
+                    },
+                    "is_large": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
-                    "layout"
+                    "layout",
+                    "is_large"
                   ]
                 }
               ]
