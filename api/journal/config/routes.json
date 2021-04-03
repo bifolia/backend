@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/journal",
+      "handler": "journal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/journal",
+      "handler": "journal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/journal",
+      "handler": "journal.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
