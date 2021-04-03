@@ -18,6 +18,10 @@
         "base.text"
       ],
       "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
     }
   }
 }

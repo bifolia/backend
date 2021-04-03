@@ -313,7 +313,8 @@
       "Homepage": {
         "required": [
           "id",
-          "body"
+          "body",
+          "description"
         ],
         "properties": {
           "id": {
@@ -565,12 +566,16 @@
                 }
               ]
             }
+          },
+          "description": {
+            "type": "string"
           }
         }
       },
       "NewHomepage": {
         "required": [
-          "body"
+          "body",
+          "description"
         ],
         "properties": {
           "body": {
@@ -819,6 +824,9 @@
                 }
               ]
             }
+          },
+          "description": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"

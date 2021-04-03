@@ -521,7 +521,8 @@
           "place",
           "year",
           "cover",
-          "body"
+          "body",
+          "description"
         ],
         "properties": {
           "id": {
@@ -850,6 +851,9 @@
                 }
               ]
             }
+          },
+          "description": {
+            "type": "string"
           }
         }
       },
@@ -858,7 +862,8 @@
           "name",
           "place",
           "year",
-          "body"
+          "body",
+          "description"
         ],
         "properties": {
           "name": {
@@ -1117,6 +1122,9 @@
                 }
               ]
             }
+          },
+          "description": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"
