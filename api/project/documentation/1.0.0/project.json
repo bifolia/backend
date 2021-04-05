@@ -811,9 +811,6 @@
                     "id": {
                       "type": "string"
                     },
-                    "title": {
-                      "type": "string"
-                    },
                     "content": {
                       "type": "string"
                     },
@@ -1080,9 +1077,6 @@
                       ]
                     },
                     "id": {
-                      "type": "string"
-                    },
-                    "title": {
                       "type": "string"
                     },
                     "content": {
