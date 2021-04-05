@@ -12,7 +12,8 @@
       "enum": [
         "full",
         "left",
-        "right"
+        "right",
+        "center"
       ],
       "required": true
     }

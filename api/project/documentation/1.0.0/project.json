@@ -710,7 +710,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -787,7 +788,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -829,7 +831,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -978,7 +981,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -1055,7 +1059,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -1097,7 +1102,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }

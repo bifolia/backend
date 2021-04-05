@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "04/05/2021 9:15:18 AM"
+    "x-generation-date": "04/05/2021 2:39:03 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5696,7 +5696,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -5773,7 +5774,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -5815,7 +5817,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -5951,7 +5954,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -6028,7 +6032,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -6070,7 +6075,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -6216,7 +6222,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -6293,7 +6300,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -6335,7 +6343,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -6471,7 +6480,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -6548,7 +6558,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -6590,7 +6601,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -6632,10 +6644,6 @@
           },
           "description": {
             "type": "string"
-          },
-          "published_at": {
-            "type": "string",
-            "format": "date-time"
           }
         }
       },
@@ -6646,10 +6654,6 @@
         "properties": {
           "description": {
             "type": "string"
-          },
-          "published_at": {
-            "type": "string",
-            "format": "date-time"
           },
           "created_by": {
             "type": "string"
@@ -6774,7 +6778,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -6851,7 +6856,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -6893,7 +6899,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -7029,7 +7036,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -7106,7 +7114,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -7148,7 +7157,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -7375,7 +7385,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -7452,7 +7463,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -7494,7 +7506,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -7643,7 +7656,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -7720,7 +7734,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -7762,7 +7777,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -7908,7 +7924,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -7985,7 +8002,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -8027,7 +8045,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -8163,7 +8182,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -8240,7 +8260,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -8282,7 +8303,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -8428,7 +8450,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -8505,7 +8528,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -8547,7 +8571,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -8683,7 +8708,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -8760,7 +8786,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -8802,7 +8829,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -9007,7 +9035,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -9084,7 +9113,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -9126,7 +9156,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -9272,7 +9303,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -9349,7 +9381,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
@@ -9391,7 +9424,8 @@
                           "enum": [
                             "full",
                             "left",
-                            "right"
+                            "right",
+                            "center"
                           ]
                         }
                       }
