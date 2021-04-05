@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "04/03/2021 5:32:57 PM"
+    "x-generation-date": "04/05/2021 9:15:18 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -5797,9 +5797,6 @@
                     "id": {
                       "type": "string"
                     },
-                    "title": {
-                      "type": "string"
-                    },
                     "content": {
                       "type": "string"
                     },
@@ -6053,9 +6050,6 @@
                       ]
                     },
                     "id": {
-                      "type": "string"
-                    },
-                    "title": {
                       "type": "string"
                     },
                     "content": {
@@ -6323,9 +6317,6 @@
                     "id": {
                       "type": "string"
                     },
-                    "title": {
-                      "type": "string"
-                    },
                     "content": {
                       "type": "string"
                     },
@@ -6579,9 +6570,6 @@
                       ]
                     },
                     "id": {
-                      "type": "string"
-                    },
-                    "title": {
                       "type": "string"
                     },
                     "content": {
@@ -6887,9 +6875,6 @@
                     "id": {
                       "type": "string"
                     },
-                    "title": {
-                      "type": "string"
-                    },
                     "content": {
                       "type": "string"
                     },
@@ -7143,9 +7128,6 @@
                       ]
                     },
                     "id": {
-                      "type": "string"
-                    },
-                    "title": {
                       "type": "string"
                     },
                     "content": {
@@ -7494,9 +7476,6 @@
                     "id": {
                       "type": "string"
                     },
-                    "title": {
-                      "type": "string"
-                    },
                     "content": {
                       "type": "string"
                     },
@@ -7765,9 +7744,6 @@
                     "id": {
                       "type": "string"
                     },
-                    "title": {
-                      "type": "string"
-                    },
                     "content": {
                       "type": "string"
                     },
@@ -8033,9 +8009,6 @@
                     "id": {
                       "type": "string"
                     },
-                    "title": {
-                      "type": "string"
-                    },
                     "content": {
                       "type": "string"
                     },
@@ -8289,9 +8262,6 @@
                       ]
                     },
                     "id": {
-                      "type": "string"
-                    },
-                    "title": {
                       "type": "string"
                     },
                     "content": {
@@ -8559,9 +8529,6 @@
                     "id": {
                       "type": "string"
                     },
-                    "title": {
-                      "type": "string"
-                    },
                     "content": {
                       "type": "string"
                     },
@@ -8815,9 +8782,6 @@
                       ]
                     },
                     "id": {
-                      "type": "string"
-                    },
-                    "title": {
                       "type": "string"
                     },
                     "content": {
@@ -9144,9 +9108,6 @@
                     "id": {
                       "type": "string"
                     },
-                    "title": {
-                      "type": "string"
-                    },
                     "content": {
                       "type": "string"
                     },
@@ -9410,9 +9371,6 @@
                       ]
                     },
                     "id": {
-                      "type": "string"
-                    },
-                    "title": {
                       "type": "string"
                     },
                     "content": {
