@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "datenschutzs",
+  "info": {
+    "name": "Datenschutz"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
