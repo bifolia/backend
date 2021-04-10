@@ -333,7 +333,8 @@
               "id",
               "line_1",
               "city",
-              "code"
+              "code",
+              "title"
             ],
             "properties": {
               "id": {
@@ -350,6 +351,9 @@
               },
               "code": {
                 "type": "integer"
+              },
+              "title": {
+                "type": "string"
               }
             }
           },
@@ -396,7 +400,8 @@
               "id",
               "line_1",
               "city",
-              "code"
+              "code",
+              "title"
             ],
             "properties": {
               "id": {
@@ -413,6 +418,9 @@
               },
               "code": {
                 "type": "integer"
+              },
+              "title": {
+                "type": "string"
               }
             }
           },
