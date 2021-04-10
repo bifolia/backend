@@ -19,10 +19,6 @@
       "type": "date",
       "required": true
     },
-    "authors": {
-      "plugin": "users-permissions",
-      "collection": "user"
-    },
     "body": {
       "type": "dynamiczone",
       "components": [
@@ -31,6 +27,9 @@
         "base.text"
       ],
       "required": true
+    },
+    "authors": {
+      "collection": "authors"
     }
   }
 }

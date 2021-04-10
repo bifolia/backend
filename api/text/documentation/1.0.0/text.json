@@ -531,58 +531,6 @@
             "type": "string",
             "format": "date"
           },
-          "authors": {
-            "type": "array",
-            "items": {
-              "required": [
-                "id",
-                "username",
-                "email",
-                "name"
-              ],
-              "properties": {
-                "id": {
-                  "type": "string"
-                },
-                "username": {
-                  "type": "string"
-                },
-                "email": {
-                  "type": "string"
-                },
-                "provider": {
-                  "type": "string"
-                },
-                "password": {
-                  "type": "string"
-                },
-                "resetPasswordToken": {
-                  "type": "string"
-                },
-                "confirmationToken": {
-                  "type": "string"
-                },
-                "confirmed": {
-                  "type": "boolean"
-                },
-                "blocked": {
-                  "type": "boolean"
-                },
-                "role": {
-                  "type": "string"
-                },
-                "name": {
-                  "type": "string"
-                },
-                "created_by": {
-                  "type": "string"
-                },
-                "updated_by": {
-                  "type": "string"
-                }
-              }
-            }
-          },
           "body": {
             "type": "array",
             "items": {
@@ -828,6 +776,29 @@
                   ]
                 }
               ]
+            }
+          },
+          "authors": {
+            "type": "array",
+            "items": {
+              "required": [
+                "id",
+                "name"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "created_by": {
+                  "type": "string"
+                },
+                "updated_by": {
+                  "type": "string"
+                }
+              }
             }
           }
         }
@@ -845,12 +816,6 @@
             "type": "string",
             "format": "date"
           },
-          "authors": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            }
-          },
           "body": {
             "type": "array",
             "items": {
@@ -1096,6 +1061,12 @@
                   ]
                 }
               ]
+            }
+          },
+          "authors": {
+            "type": "array",
+            "items": {
+              "type": "string"
             }
           },
           "created_by": {
