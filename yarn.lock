@@ -10129,10 +10129,10 @@ strapi-admin@3.6.5:
     webpackbar "^4.0.0"
     yup "^0.32.9"
 
-strapi-connector-mongoose@3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/strapi-connector-mongoose/-/strapi-connector-mongoose-3.6.0.tgz#057f464440df3ff9f77f189c21187a9d54f79dd1"
-  integrity sha512-ZdsgfQZklhoU45tDa5fAC5DPQjhev4+R6vMzK4tHDA9avbgXw/DwBnyvxrYePxeh1k0x1e53O4c+IzyvsFhb5w==
+strapi-connector-mongoose@3.6.5:
+  version "3.6.5"
+  resolved "https://registry.yarnpkg.com/strapi-connector-mongoose/-/strapi-connector-mongoose-3.6.5.tgz#f9449194c93489c6c5c2b67ce22591b7c11a5101"
+  integrity sha512-7Vx0AYc46aeBw4+R0yH+VnKhPdbPrjfJdU63SobFs6+nKoCRk2KlukHkZo5ffsbJjDVKuPd0e3voS8V5xlTw9g==
   dependencies:
     lodash "4.17.21"
     mongoose "5.10.8"
@@ -10141,7 +10141,7 @@ strapi-connector-mongoose@3.6.0:
     p-map "4.0.0"
     pluralize "^8.0.0"
     semver "^7.3.5"
-    strapi-utils "3.6.0"
+    strapi-utils "3.6.5"
 
 strapi-database@3.6.5:
   version "3.6.5"
