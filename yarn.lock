@@ -10461,17 +10461,17 @@ strapi-plugin-content-type-builder@3.6.6:
     strapi-utils "3.6.6"
     yup "^0.32.9"
 
-strapi-plugin-documentation@3.6.5:
-  version "3.6.5"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-documentation/-/strapi-plugin-documentation-3.6.5.tgz#15dc7285440952fff8f4b2cae187b0f67c05b29c"
-  integrity sha512-ftLOBlgN8egy12+sQNPNSS/s+IGDR1ceymkkTxpJJ2xhamDBvACHYh6jSUacNS3FIK5vwgcL2aEKP1vRLC2cxQ==
+strapi-plugin-documentation@3.6.6:
+  version "3.6.6"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-documentation/-/strapi-plugin-documentation-3.6.6.tgz#f0bc11fc2506b7590e488181e96b0f23ebd96a97"
+  integrity sha512-PwuLSiaPco2fisViAbHWNsezUmrGjaQQy+wO6r/duoBJnNhLbBYSZdlrw/HPAU3GefxCYkbfrsMMSwIer5wV4g==
   dependencies:
-    "@buffetjs/core" "3.3.6"
-    "@buffetjs/custom" "3.3.6"
-    "@buffetjs/hooks" "3.3.6"
-    "@buffetjs/icons" "3.3.6"
-    "@buffetjs/styles" "3.3.6"
-    "@buffetjs/utils" "3.3.6"
+    "@buffetjs/core" "3.3.8"
+    "@buffetjs/custom" "3.3.8"
+    "@buffetjs/hooks" "3.3.8"
+    "@buffetjs/icons" "3.3.8"
+    "@buffetjs/styles" "3.3.8"
+    "@buffetjs/utils" "3.3.8"
     cheerio "^1.0.0-rc.5"
     fs-extra "^9.1.0"
     immutable "^3.8.2"
@@ -10490,7 +10490,7 @@ strapi-plugin-documentation@3.6.5:
     redux "^4.0.1"
     redux-immutable "^4.0.0"
     reselect "^4.0.0"
-    strapi-helper-plugin "3.6.5"
+    strapi-helper-plugin "3.6.6"
     swagger-ui-dist "3.47.1"
 
 strapi-plugin-email@3.6.5:
