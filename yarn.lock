@@ -10239,38 +10239,6 @@ strapi-generate@3.6.8:
     reportback "^2.0.2"
     strapi-utils "3.6.8"
 
-strapi-helper-plugin@3.6.7:
-  version "3.6.7"
-  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.6.7.tgz#ce44a5df5c535ebc8a84141a4035a52df0ad42f5"
-  integrity sha512-k/pw/QCnb8/oDn3cZptqQ9uPs9HLiZCM3mhEKs8v0M5KUxCOzbfVAlKprpm5xHVIUdZGPCnItRxDtFK3wj+B3A==
-  dependencies:
-    "@buffetjs/core" "3.3.8"
-    "@buffetjs/custom" "3.3.8"
-    "@buffetjs/hooks" "3.3.8"
-    "@buffetjs/icons" "3.3.8"
-    "@buffetjs/styles" "3.3.8"
-    "@buffetjs/utils" "3.3.8"
-    "@fortawesome/fontawesome-free" "^5.15.2"
-    "@fortawesome/fontawesome-svg-core" "^1.2.35"
-    "@fortawesome/free-brands-svg-icons" "^5.15.2"
-    "@fortawesome/free-solid-svg-icons" "^5.15.3"
-    "@fortawesome/react-fontawesome" "^0.1.14"
-    bootstrap "^4.6.0"
-    classnames "^2.3.1"
-    immutable "^3.8.2"
-    invariant "^2.2.1"
-    lodash "4.17.21"
-    moment "^2.29.1"
-    react "^16.14.0"
-    react-dom "^16.9.0"
-    react-helmet "^6.1.0"
-    react-intl "4.5.0"
-    react-router "^5.2.0"
-    react-router-dom "^5.0.0"
-    reactstrap "8.4.1"
-    styled-components "^5.2.3"
-    whatwg-fetch "^3.6.2"
-
 strapi-helper-plugin@3.6.8:
   version "3.6.8"
   resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.6.8.tgz#29a6ff49ef1fe5021d9a24e566a375d357f450ae"
@@ -10519,10 +10487,10 @@ strapi-provider-email-sendmail@3.6.7:
     sendmail "^1.6.1"
     strapi-utils "3.6.7"
 
-strapi-provider-upload-cloudinary@^3.6.7:
-  version "3.6.7"
-  resolved "https://registry.yarnpkg.com/strapi-provider-upload-cloudinary/-/strapi-provider-upload-cloudinary-3.6.7.tgz#1cffdf90579b2bd392738c888739826726fd3f1d"
-  integrity sha512-2MLLMk+IlG/5cuSBQZhW1pOMctNK9Er6LWXQaDFReC7RlWrwyTRalg3AnZg9ZZZbe7iBfTfFOwQ1p0tTMcXtZQ==
+strapi-provider-upload-cloudinary@^3.6.8:
+  version "3.6.8"
+  resolved "https://registry.yarnpkg.com/strapi-provider-upload-cloudinary/-/strapi-provider-upload-cloudinary-3.6.8.tgz#b3e8d2013c11e200f1565d491f7d3b37a64a2003"
+  integrity sha512-81aODHhMx3fBPRHXrF7vk1ppjSXby+L5GbojI4lTdjHqOmfJtHXC6V3R6CGzUz/b7Qe+Txs2W5PsySUkmjm3FQ==
   dependencies:
     cloudinary "^1.25.1"
     into-stream "^5.1.0"
