@@ -414,20 +414,25 @@
                       "type": "object",
                       "required": [
                         "id",
-                        "layout"
+                        "position",
+                        "len"
                       ],
                       "properties": {
                         "id": {
                           "type": "string"
                         },
-                        "layout": {
+                        "position": {
                           "type": "string",
                           "enum": [
-                            "full",
                             "left",
-                            "right",
-                            "center"
+                            "semi_left",
+                            "semi_right",
+                            "right"
                           ]
+                        },
+                        "len": {
+                          "type": "integer",
+                          "default": 2
                         }
                       }
                     }
@@ -492,20 +497,25 @@
                       "type": "object",
                       "required": [
                         "id",
-                        "layout"
+                        "position",
+                        "len"
                       ],
                       "properties": {
                         "id": {
                           "type": "string"
                         },
-                        "layout": {
+                        "position": {
                           "type": "string",
                           "enum": [
-                            "full",
                             "left",
-                            "right",
-                            "center"
+                            "semi_left",
+                            "semi_right",
+                            "right"
                           ]
+                        },
+                        "len": {
+                          "type": "integer",
+                          "default": 2
                         }
                       }
                     }
@@ -535,20 +545,25 @@
                       "type": "object",
                       "required": [
                         "id",
-                        "layout"
+                        "position",
+                        "len"
                       ],
                       "properties": {
                         "id": {
                           "type": "string"
                         },
-                        "layout": {
+                        "position": {
                           "type": "string",
                           "enum": [
-                            "full",
                             "left",
-                            "right",
-                            "center"
+                            "semi_left",
+                            "semi_right",
+                            "right"
                           ]
+                        },
+                        "len": {
+                          "type": "integer",
+                          "default": 2
                         }
                       }
                     },
@@ -672,20 +687,25 @@
                       "type": "object",
                       "required": [
                         "id",
-                        "layout"
+                        "position",
+                        "len"
                       ],
                       "properties": {
                         "id": {
                           "type": "string"
                         },
-                        "layout": {
+                        "position": {
                           "type": "string",
                           "enum": [
-                            "full",
                             "left",
-                            "right",
-                            "center"
+                            "semi_left",
+                            "semi_right",
+                            "right"
                           ]
+                        },
+                        "len": {
+                          "type": "integer",
+                          "default": 2
                         }
                       }
                     }
@@ -750,20 +770,25 @@
                       "type": "object",
                       "required": [
                         "id",
-                        "layout"
+                        "position",
+                        "len"
                       ],
                       "properties": {
                         "id": {
                           "type": "string"
                         },
-                        "layout": {
+                        "position": {
                           "type": "string",
                           "enum": [
-                            "full",
                             "left",
-                            "right",
-                            "center"
+                            "semi_left",
+                            "semi_right",
+                            "right"
                           ]
+                        },
+                        "len": {
+                          "type": "integer",
+                          "default": 2
                         }
                       }
                     }
@@ -793,20 +818,25 @@
                       "type": "object",
                       "required": [
                         "id",
-                        "layout"
+                        "position",
+                        "len"
                       ],
                       "properties": {
                         "id": {
                           "type": "string"
                         },
-                        "layout": {
+                        "position": {
                           "type": "string",
                           "enum": [
-                            "full",
                             "left",
-                            "right",
-                            "center"
+                            "semi_left",
+                            "semi_right",
+                            "right"
                           ]
+                        },
+                        "len": {
+                          "type": "integer",
+                          "default": 2
                         }
                       }
                     },

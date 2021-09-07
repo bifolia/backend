@@ -257,7 +257,7 @@
     "/authors/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of authors documents",
+        "description": "Retrieve the number of authors documents",
         "responses": {
           "200": {
             "description": "Retrieve authors document(s)",

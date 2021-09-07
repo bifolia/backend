@@ -7,15 +7,22 @@
   },
   "options": {},
   "attributes": {
-    "layout": {
+    "position": {
       "type": "enumeration",
       "enum": [
-        "full",
         "left",
-        "right",
-        "center"
+        "semi_left",
+        "semi_right",
+        "right"
       ],
       "required": true
+    },
+    "len": {
+      "type": "integer",
+      "required": true,
+      "max": 4,
+      "min": 1,
+      "default": 2
     }
   }
 }
