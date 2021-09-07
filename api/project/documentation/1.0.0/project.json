@@ -708,6 +708,7 @@
                         },
                         "position": {
                           "type": "string",
+                          "default": "left",
                           "enum": [
                             "left",
                             "semi_left",
@@ -791,6 +792,7 @@
                         },
                         "position": {
                           "type": "string",
+                          "default": "left",
                           "enum": [
                             "left",
                             "semi_left",
@@ -839,6 +841,7 @@
                         },
                         "position": {
                           "type": "string",
+                          "default": "left",
                           "enum": [
                             "left",
                             "semi_left",
@@ -994,6 +997,7 @@
                         },
                         "position": {
                           "type": "string",
+                          "default": "left",
                           "enum": [
                             "left",
                             "semi_left",
@@ -1077,6 +1081,7 @@
                         },
                         "position": {
                           "type": "string",
+                          "default": "left",
                           "enum": [
                             "left",
                             "semi_left",
@@ -1125,6 +1130,7 @@
                         },
                         "position": {
                           "type": "string",
+                          "default": "left",
                           "enum": [
                             "left",
                             "semi_left",

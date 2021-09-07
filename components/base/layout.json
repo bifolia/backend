@@ -15,7 +15,8 @@
         "semi_right",
         "right"
       ],
-      "required": true
+      "required": true,
+      "default": "left"
     },
     "len": {
       "type": "integer",
