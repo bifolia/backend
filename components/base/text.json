@@ -21,6 +21,11 @@
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "marginless": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }

@@ -858,13 +858,18 @@
                     "is_large": {
                       "type": "boolean",
                       "default": false
+                    },
+                    "marginless": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
                     "layout",
-                    "is_large"
+                    "is_large",
+                    "marginless"
                   ]
                 }
               ]
@@ -1147,13 +1152,18 @@
                     "is_large": {
                       "type": "boolean",
                       "default": false
+                    },
+                    "marginless": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
                     "layout",
-                    "is_large"
+                    "is_large",
+                    "marginless"
                   ]
                 }
               ]

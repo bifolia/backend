@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "09/07/2021 10:02:00 PM"
+    "x-generation-date": "09/07/2021 10:36:58 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -7045,13 +7045,18 @@
                     "is_large": {
                       "type": "boolean",
                       "default": false
+                    },
+                    "marginless": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
                     "layout",
-                    "is_large"
+                    "is_large",
+                    "marginless"
                   ]
                 }
               ]
@@ -7321,13 +7326,18 @@
                     "is_large": {
                       "type": "boolean",
                       "default": false
+                    },
+                    "marginless": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
                     "layout",
-                    "is_large"
+                    "is_large",
+                    "marginless"
                   ]
                 }
               ]
@@ -7607,13 +7617,18 @@
                     "is_large": {
                       "type": "boolean",
                       "default": false
+                    },
+                    "marginless": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
                     "layout",
-                    "is_large"
+                    "is_large",
+                    "marginless"
                   ]
                 }
               ]
@@ -7883,13 +7898,18 @@
                     "is_large": {
                       "type": "boolean",
                       "default": false
+                    },
+                    "marginless": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
                     "layout",
-                    "is_large"
+                    "is_large",
+                    "marginless"
                   ]
                 }
               ]
@@ -8199,13 +8219,18 @@
                     "is_large": {
                       "type": "boolean",
                       "default": false
+                    },
+                    "marginless": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
                     "layout",
-                    "is_large"
+                    "is_large",
+                    "marginless"
                   ]
                 }
               ]
@@ -8475,13 +8500,18 @@
                     "is_large": {
                       "type": "boolean",
                       "default": false
+                    },
+                    "marginless": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
                     "layout",
-                    "is_large"
+                    "is_large",
+                    "marginless"
                   ]
                 }
               ]
@@ -8842,13 +8872,18 @@
                     "is_large": {
                       "type": "boolean",
                       "default": false
+                    },
+                    "marginless": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
                     "layout",
-                    "is_large"
+                    "is_large",
+                    "marginless"
                   ]
                 }
               ]
@@ -9131,13 +9166,18 @@
                     "is_large": {
                       "type": "boolean",
                       "default": false
+                    },
+                    "marginless": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
                     "layout",
-                    "is_large"
+                    "is_large",
+                    "marginless"
                   ]
                 }
               ]
@@ -9447,13 +9487,18 @@
                     "is_large": {
                       "type": "boolean",
                       "default": false
+                    },
+                    "marginless": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
                     "layout",
-                    "is_large"
+                    "is_large",
+                    "marginless"
                   ]
                 }
               ]
@@ -9723,13 +9768,18 @@
                     "is_large": {
                       "type": "boolean",
                       "default": false
+                    },
+                    "marginless": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
                     "layout",
-                    "is_large"
+                    "is_large",
+                    "marginless"
                   ]
                 }
               ]
@@ -10009,13 +10059,18 @@
                     "is_large": {
                       "type": "boolean",
                       "default": false
+                    },
+                    "marginless": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
                     "layout",
-                    "is_large"
+                    "is_large",
+                    "marginless"
                   ]
                 }
               ]
@@ -10285,13 +10340,18 @@
                     "is_large": {
                       "type": "boolean",
                       "default": false
+                    },
+                    "marginless": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
                     "layout",
-                    "is_large"
+                    "is_large",
+                    "marginless"
                   ]
                 }
               ]
@@ -10578,13 +10638,18 @@
                     "is_large": {
                       "type": "boolean",
                       "default": false
+                    },
+                    "marginless": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
                     "layout",
-                    "is_large"
+                    "is_large",
+                    "marginless"
                   ]
                 }
               ]
@@ -10881,13 +10946,18 @@
                     "is_large": {
                       "type": "boolean",
                       "default": false
+                    },
+                    "marginless": {
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "required": [
                     "id",
                     "content",
                     "layout",
-                    "is_large"
+                    "is_large",
+                    "marginless"
                   ]
                 }
               ]
