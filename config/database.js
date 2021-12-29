@@ -1,5 +1,5 @@
 module.exports = ({ env }) => {
-  const [, user, password, host, port, database] = env('DATABASE_URL').match('postgres://(.*):(.*)@(.*):([0-9]{4})/(.*)');
+  const [, user, password, host, port, database] = env('DATABASE_URL', 'postgres://user:password@host:port/database').match('postgres://(.*):(.*)@(.*):([0-9]{4})/(.*)');
 
   return {
     connection: {
