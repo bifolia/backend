@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_base_tables",
+  "info": {
+    "displayName": "Table",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "entries": {
+      "displayName": "Table Entry",
+      "type": "component",
+      "repeatable": true,
+      "component": "base.table-entry",
+      "required": true
+    },
+    "layout": {
+      "displayName": "Layout",
+      "type": "component",
+      "repeatable": false,
+      "component": "base.layout",
+      "required": true
+    }
+  }
+}

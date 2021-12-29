@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_body_images",
+  "info": {
+    "displayName": "Image",
+    "icon": "image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "source": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "caption": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "layout": {
+      "displayName": "Layout",
+      "type": "component",
+      "repeatable": false,
+      "component": "base.layout",
+      "required": true
+    }
+  }
+}

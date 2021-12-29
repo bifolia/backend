@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "gartenentwicklungs",
+  "info": {
+    "singularName": "gartenentwicklung",
+    "pluralName": "gartenentwicklungs",
+    "displayName": "Gartenentwicklung",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "base.image",
+        "base.text"
+      ],
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

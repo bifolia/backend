@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "projektes",
+  "info": {
+    "singularName": "projekte",
+    "pluralName": "projektes",
+    "displayName": "Projekte"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
