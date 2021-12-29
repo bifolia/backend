@@ -12,16 +12,6 @@ module.exports = ({ env }) => {
         password,
         ssl: { rejectUnauthorized: false },
       },
-      // host: env("DATABASE_HOST"),
-      // port: env.int("DATABASE_PORT"),
-      // database: env("DATABASE_NAME"),
-      // username: env("DATABASE_USER"),
-      // password: env("DATABASE_PASSWORD"),
-      // schema: env("DATABASE_SCHEMA", "public"),
-      // connection: {
-      //   filename: path.join(__dirname, '..', env('DATABASE_FILENAME', '.tmp/data.db')),
-      // },
-      // useNullAsDefault: true,
     },
   }
 };
