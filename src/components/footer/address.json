@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_footer_addresses",
+  "info": {
+    "displayName": "Address",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "line_1": {
+      "type": "string",
+      "required": true
+    },
+    "line_2": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "code": {
+      "type": "integer",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

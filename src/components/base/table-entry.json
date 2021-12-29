@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_base_table_entries",
+  "info": {
+    "displayName": "Table Entry",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "values": {
+      "type": "component",
+      "repeatable": true,
+      "component": "base.table-value",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "raumgestaltungs",
+  "info": {
+    "singularName": "raumgestaltung",
+    "pluralName": "raumgestaltungs",
+    "displayName": "Raumgestaltung",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "body": {
+      "type": "dynamiczone",
+      "components": [
+        "base.image",
+        "base.text"
+      ],
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

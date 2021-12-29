@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_body_layouts",
+  "info": {
+    "displayName": "Layout",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "position": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "semi_left",
+        "semi_right",
+        "right"
+      ],
+      "required": true,
+      "default": "left"
+    },
+    "len": {
+      "type": "integer",
+      "required": true,
+      "default": 2,
+      "max": 4,
+      "min": 1
+    }
+  }
+}

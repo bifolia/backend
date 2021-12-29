@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_base_texts",
+  "info": {
+    "displayName": "Text",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "layout": {
+      "type": "component",
+      "repeatable": false,
+      "component": "base.layout",
+      "required": true
+    },
+    "is_large": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "marginless": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
