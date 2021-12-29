@@ -20,10 +20,6 @@
       "type": "string",
       "required": true
     },
-    "year": {
-      "type": "date",
-      "required": true
-    },
     "cover": {
       "type": "media",
       "multiple": false,
@@ -43,6 +39,10 @@
         "base.text",
         "base.table"
       ],
+      "required": true
+    },
+    "year": {
+      "type": "integer",
       "required": true
     }
   }
