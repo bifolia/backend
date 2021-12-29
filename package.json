@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "backend-2",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,6 +11,8 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "@strapi/plugin-i18n": "4.0.2",
+    "@strapi/plugin-users-permissions": "4.0.2",
     "@strapi/strapi": "4.0.2",
     "pg": "8.6.0",
     "strapi-provider-upload-imagekit": "^4.0.0"
