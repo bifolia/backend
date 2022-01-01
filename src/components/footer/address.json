@@ -25,6 +25,9 @@
     "title": {
       "type": "string",
       "required": true
+    },
+    "line_3": {
+      "type": "string"
     }
   }
 }
