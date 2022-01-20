@@ -1805,12 +1805,12 @@
     "@strapi/utils" "4.0.5"
     lodash "4.17.21"
 
-"@strapi/plugin-i18n@4.0.4":
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/@strapi/plugin-i18n/-/plugin-i18n-4.0.4.tgz#348bec7144a4d9e4a623f4797b16684f4e2936e9"
-  integrity sha512-a4YNAy1FjZNdd26GbtDl/H4ceKRx/GbPe/ThUX3ey68RF35F+kgP3bXYKQKYxH2nzYU8p+IRwVqwU0nahLhyyw==
+"@strapi/plugin-i18n@4.0.5":
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/@strapi/plugin-i18n/-/plugin-i18n-4.0.5.tgz#0619b694526e62183c9e8f7d000c7cfcb1dc3084"
+  integrity sha512-VyYp4W+lOcwlgJeWuuBk3sDHdDK71BEP/n7bZzgJ0oq1pOV+l3eI0bseUoUqdOqeTbY32BlpZgScU5esMNXrLw==
   dependencies:
-    "@strapi/utils" "4.0.4"
+    "@strapi/utils" "4.0.5"
     lodash "4.17.21"
 
 "@strapi/plugin-upload@4.0.5":
