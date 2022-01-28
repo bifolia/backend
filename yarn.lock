@@ -1725,6 +1725,33 @@
     styled-components "^5.2.3"
     whatwg-fetch "^3.6.2"
 
+"@strapi/helper-plugin@4.0.6":
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/@strapi/helper-plugin/-/helper-plugin-4.0.6.tgz#8ea48c9d63ac3bf8bdbf184d2d40ecc4e932826f"
+  integrity sha512-qg53A4DWCYJkpfI6XSte1Yh8rlQLsWuUc3BOrepME52sd/Dvrx2KKP7FfHXhY/9wecifln3+hRyrZrqgXT24EQ==
+  dependencies:
+    "@fortawesome/fontawesome-free" "^5.15.2"
+    "@fortawesome/fontawesome-svg-core" "^1.2.35"
+    "@fortawesome/free-brands-svg-icons" "^5.15.2"
+    "@fortawesome/free-solid-svg-icons" "^5.15.3"
+    "@fortawesome/react-fontawesome" "^0.1.14"
+    axios "0.25.0"
+    babel-plugin-styled-components "2.0.2"
+    formik "2.2.9"
+    invariant "^2.2.1"
+    lodash "4.17.21"
+    match-sorter "^4.0.2"
+    mini-css-extract-plugin "2.4.4"
+    moment "^2.29.1"
+    react "^17.0.2"
+    react-dom "^17.0.2"
+    react-helmet "^6.1.0"
+    react-intl "5.20.2"
+    react-router "^5.2.0"
+    react-router-dom "5.2.0"
+    styled-components "^5.2.3"
+    whatwg-fetch "^3.6.2"
+
 "@strapi/icons@0.0.1-alpha.72":
   version "0.0.1-alpha.72"
   resolved "https://registry.yarnpkg.com/@strapi/icons/-/icons-0.0.1-alpha.72.tgz#7db766a60dbbe60cf12ae881605eb99168cda898"
@@ -1809,14 +1836,14 @@
     react-router-dom "5.2.0"
     sharp "0.29.0"
 
-"@strapi/plugin-users-permissions@4.0.5":
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/@strapi/plugin-users-permissions/-/plugin-users-permissions-4.0.5.tgz#0cd636ecaf127bd0f415b572842633dbe2a3a4f5"
-  integrity sha512-9zCcSI10nT32atZSfNPHbYHisOQQ3kUp4LvdBSlyP+vyMg7HsFPJXHVzgC1Bupd7J5dGRhgA9snfz63TBbOBJg==
+"@strapi/plugin-users-permissions@4.0.6":
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/@strapi/plugin-users-permissions/-/plugin-users-permissions-4.0.6.tgz#a682759d8d1616dd9d30fcdcb8af30d860f29cea"
+  integrity sha512-/ErsmqKBXw0Yt1UDGmJb7EYvNoj3hfAyQD5BMXBwdK7xqRV6Eb91JYfDwCwfdX2D/sJFybNtzZIJmIDF4hw4dA==
   dependencies:
     "@purest/providers" "^1.0.2"
-    "@strapi/helper-plugin" "4.0.5"
-    "@strapi/utils" "4.0.5"
+    "@strapi/helper-plugin" "4.0.6"
+    "@strapi/utils" "4.0.6"
     bcryptjs "2.4.3"
     grant-koa "5.4.8"
     jsonwebtoken "^8.1.0"
@@ -1909,6 +1936,17 @@
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.0.5.tgz#68c346504b5cd0daae15b0ca4eaf23bb19222054"
   integrity sha512-1/yiKwVRafbieP6R8W414GQlUsYR2BEBPGA0wTcY8abDT+uXr4YqqsAR/u/fQ20Y21sxrL4xJLFpRqny8iVjCA==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "2.24.0"
+    http-errors "1.8.0"
+    lodash "4.17.21"
+    yup "0.32.9"
+
+"@strapi/utils@4.0.6":
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.0.6.tgz#768ee569dcb4f397fb7769f9ba11395f80970eb4"
+  integrity sha512-8DlZ7tAm9LC5nFi5mAajhLh8OCodE2nKXkIMgom6Nr4GC423anVoOEmYpv+cUkdfO8hohrnnIG+RzJMgDBfGCg==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "2.24.0"
@@ -2657,6 +2695,13 @@ axios@0.24.0:
   integrity sha512-Q6cWsys88HoPgAaFAVUb0WpPk0O8iTeisR9IMqy9G8AbO4NlpVknrnQS03zzF9PGAWgO3cgletO3VjV/P7VztA==
   dependencies:
     follow-redirects "^1.14.4"
+
+axios@0.25.0:
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.25.0.tgz#349cfbb31331a9b4453190791760a8d35b093e0a"
+  integrity sha512-cD8FOb0tRH3uuEe6+evtAbgJtfxr7ly3fQjYcMcuPlgkwVS9xboaVIpcDV+cYQe+yGykgwZCs1pzjntcGa6l5g==
+  dependencies:
+    follow-redirects "^1.14.7"
 
 babel-loader@8.2.3:
   version "8.2.3"
@@ -4688,6 +4733,11 @@ follow-redirects@^1.0.0, follow-redirects@^1.14.4:
   version "1.14.6"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.6.tgz#8cfb281bbc035b3c067d6cd975b0f6ade6e855cd"
   integrity sha512-fhUl5EwSJbbl8AR+uYL2KQDxLkdSjZGR36xy46AO7cOMTrCMON6Sa28FmAnC2tRTDbd/Uuzz3aJBv7EBN7JH8A==
+
+follow-redirects@^1.14.7:
+  version "1.14.7"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.7.tgz#2004c02eb9436eee9a21446a6477debf17e81685"
+  integrity sha512-+hbxoLbFMbRKDwohX8GkTataGqO6Jb7jGwpAlwgy2bIz25XtRm7KEzJM76R1WiNT5SwZkX4Y75SwBolkpmE7iQ==
 
 font-awesome@^4.7.0:
   version "4.7.0"
