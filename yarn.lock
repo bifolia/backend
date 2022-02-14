@@ -9187,10 +9187,10 @@ std-env@^2.2.1:
   dependencies:
     ci-info "^3.1.1"
 
-strapi-provider-upload-imagekit@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/strapi-provider-upload-imagekit/-/strapi-provider-upload-imagekit-4.0.0.tgz#7b29a0574a5b8ed10a126cb40c5a8365c8a8d25b"
-  integrity sha512-1faTflg0JeA00viB5Qv/aSis7jhkXIRx1JBrI/E7KY8UwwGrYfHDLUYM1BwSRmnm5dvlIW3mMVIVuCauD70wWA==
+strapi-provider-upload-imagekit@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/strapi-provider-upload-imagekit/-/strapi-provider-upload-imagekit-4.0.2.tgz#1cc94720bd73909ae47cd0e5d32422b3a90f5fad"
+  integrity sha512-CLz+TzpwYPbNn9ELUXCg+n+6xZNguzrkr8WY8ROXVSDfGjZGpxFOxWt4Z1QNvVUwbYc6QbtPpXBLRJWLBvSQAQ==
   dependencies:
     imagekit "^3.2.3"
 
